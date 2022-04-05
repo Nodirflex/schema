@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2022-04-05T12:15:34.967Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="hA4CySl7JFSYBwlHMHST" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-05T14:26:07.953Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="C1twxs5OF1Ktxegtba2V" version="17.4.0" type="github">
   <diagram id="ZBGFTdCRk60YnKhg9jP9" name="Authorization">
-    <mxGraphModel dx="1510" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1104" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mDzN_fILa2eY09JsEeBP-1" value="Authorization" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=3;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endArrow=none;endFill=0;endSize=6;" edge="1" parent="1" source="mDzN_fILa2eY09JsEeBP-2" target="mDzN_fILa2eY09JsEeBP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-2" value="PhoneAuthView" style="rounded=1;fontSize=11;horizontal=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=3;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;endArrow=none;endFill=0;endSize=6;" edge="1" parent="1" source="mDzN_fILa2eY09JsEeBP-3" target="mDzN_fILa2eY09JsEeBP-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=3;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endArrow=none;endFill=0;endSize=6;" edge="1" parent="1" source="mDzN_fILa2eY09JsEeBP-3" target="mDzN_fILa2eY09JsEeBP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-3" value="PhoneAuthPresenter" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=3;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endArrow=none;endFill=0;endSize=6;" edge="1" parent="1" source="mDzN_fILa2eY09JsEeBP-4" target="mDzN_fILa2eY09JsEeBP-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-4" value="PhoneAuthInteractor" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=3;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;endArrow=none;endFill=0;endSize=6;dashed=1;" edge="1" parent="1" source="mDzN_fILa2eY09JsEeBP-28" target="mDzN_fILa2eY09JsEeBP-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-28" value="PhoneAuthRouter" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-30" value="AccountService" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=3;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;endArrow=none;endFill=0;endSize=6;" edge="1" parent="1" source="mDzN_fILa2eY09JsEeBP-52" target="mDzN_fILa2eY09JsEeBP-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-52" value="PhoneAuthVerify" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="760" y="200" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-53" value="PhoneAuth" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="245" y="125" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-55" value="PhoneAuthVerifyPresenter" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="910" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-57" value="PhoneAuthVerifyInteractor" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDzN_fILa2eY09JsEeBP-58" value="PhoneAuthVerifyInteractor" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
