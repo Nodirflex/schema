@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T09:30:55.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="h0co2DBM_xfViP1EHQoD" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T09:37:45.074Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="LaHZq9W77JgL2UVPK4WT" version="17.4.3" type="github">
   <diagram id="ZBGFTdCRk60YnKhg9jP9" name="Authorization">
-    <mxGraphModel dx="440" dy="249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="548" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,36 +73,25 @@
         <mxCell id="gjeSwQmVFEtXpkDJBLML-1" value="Verification" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="245" y="450" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gjeSwQmVFEtXpkDJBLML-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=7;" edge="1" parent="1" source="gjeSwQmVFEtXpkDJBLML-2" target="gjeSwQmVFEtXpkDJBLML-5">
+        <mxCell id="gjeSwQmVFEtXpkDJBLML-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" edge="1" parent="1" target="gjeSwQmVFEtXpkDJBLML-6">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="100" y="600" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gjeSwQmVFEtXpkDJBLML-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" edge="1" parent="1" source="gjeSwQmVFEtXpkDJBLML-2" target="gjeSwQmVFEtXpkDJBLML-6">
-          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="620" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="100" y="620" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gjeSwQmVFEtXpkDJBLML-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=7;dashed=1;" edge="1" parent="1" source="gjeSwQmVFEtXpkDJBLML-2" target="gjeSwQmVFEtXpkDJBLML-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gjeSwQmVFEtXpkDJBLML-2" value="VerificationVM&lt;br&gt;&lt;font style=&quot;font-size: 7px&quot;&gt;getFormattedMessage() -&amp;gt; String&lt;br&gt;startVerification()&lt;br&gt;resendCode()&lt;br&gt;viewIsLoaded()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="560" width="120" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="gjeSwQmVFEtXpkDJBLML-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.991;entryY=0.601;entryDx=0;entryDy=0;fontSize=7;entryPerimeter=0;" edge="1" parent="1" source="gjeSwQmVFEtXpkDJBLML-3" target="gjeSwQmVFEtXpkDJBLML-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="340" y="620" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gjeSwQmVFEtXpkDJBLML-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gjeSwQmVFEtXpkDJBLML-3" target="gjeSwQmVFEtXpkDJBLML-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjeSwQmVFEtXpkDJBLML-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=7;" edge="1" parent="1" source="gjeSwQmVFEtXpkDJBLML-3" target="gjeSwQmVFEtXpkDJBLML-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="620" />
+              <mxPoint x="340" y="640" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gjeSwQmVFEtXpkDJBLML-3" value="VerificationVC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -122,6 +111,24 @@
         </mxCell>
         <mxCell id="gjeSwQmVFEtXpkDJBLML-12" value="request(_ : phone)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=6;" vertex="1" parent="1">
           <mxGeometry x="100" y="620" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gjeSwQmVFEtXpkDJBLML-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="560" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gjeSwQmVFEtXpkDJBLML-15" value="&lt;span style=&quot;font-size: 12px&quot;&gt;VerificationVM&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="gjeSwQmVFEtXpkDJBLML-18">
+          <mxGeometry width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gjeSwQmVFEtXpkDJBLML-16" value="state: PassthroughSubject" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="gjeSwQmVFEtXpkDJBLML-18">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gjeSwQmVFEtXpkDJBLML-17" value="getFormattedMessage() -&amp;gt; String&lt;br&gt;startVerification()&lt;br&gt;resendCode()&lt;br&gt;viewIsLoaded()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="gjeSwQmVFEtXpkDJBLML-18">
+          <mxGeometry y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gjeSwQmVFEtXpkDJBLML-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=7;" edge="1" parent="1" source="gjeSwQmVFEtXpkDJBLML-16" target="gjeSwQmVFEtXpkDJBLML-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjeSwQmVFEtXpkDJBLML-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=7;dashed=1;" edge="1" parent="1" source="gjeSwQmVFEtXpkDJBLML-16" target="gjeSwQmVFEtXpkDJBLML-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
